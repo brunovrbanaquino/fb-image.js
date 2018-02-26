@@ -17,7 +17,7 @@ resetOrientation(this, function(imgCorrigida, imgOriginal){
 <script src="fb-image.js"></script>
 <form>
   <input type="file" id="teste" />
-  <img src="" id="image-id">
+  <img src="" id="image-id" width="400px">
 </form>
 <script>
 document.getElementById('teste').onchange = function(){
