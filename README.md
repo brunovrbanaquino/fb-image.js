@@ -21,12 +21,11 @@ resetOrientation(this, function(imgCorrigida, imgOriginal){
 </form>
 <script>
 document.getElementById('teste').onchange = function(){
-resetOrientation(this, function(imgCorrigida, imgOriginal){
-  //exibe a foto tirada em uma tag <img id="image-id">
-  document.getElementById('image-id').src = imgCorrigida
-
-  //colocar o base64 retornado no textarea
-	//$("#textarea-id").val(imgCorrigida);
+  resetOrientation(this, function(imgCorrigida, imgOriginal){
+    //exibe a foto tirada em uma tag <img id="image-id">
+    document.getElementById('image-id').src = imgCorrigida
+    //colocar o base64 retornado no textarea
+    //$("#textarea-id").val(imgCorrigida);
   })	
 }
 </script>
